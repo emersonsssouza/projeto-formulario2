@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <form action="cadastro.php" method="post">
+        
+            <div>
+                <h1>Increva-se!</h1>
+                <p>
+                    <label for="inome">Nome</label>
+                    <input type="text" name="nome" id="inome">
+                </p>
+                <p>
+                    <label for="isobrenome">Sobrenome</label>
+                    <input type="text" name="sobrenome" id="isobrenome">
+                </p>
+                <p>
+                    <label for="iE-mail">E-mail</label>
+                    <input type="email" name="E-mail" id="iE-mail">
+                </p>
+                <p>
+                    <label for="isenha">Senha</label>
+                    <input type="password" name="password" id="isenha">
+                </p>
+                
+                       <p><input type="checkbox" name="caixa" id="checkbox">Junte-se a Comunidade</p>
+                
+                       <p><input id="enviar" type="submit" value="Enviar"></p>
+                
+                       <p>Já é um membro? <a href="">Faça login</a></p>
+                
+                       <p id="fim">Obrigado pelo envio!</p>
+            </div>
+    
+    </form>
+
+
+   
+</body>
+</html>
