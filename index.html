@@ -8,35 +8,40 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   
+    <div class="texto">
+        <h1>Increva-se!</h1>
+    </div>
     <form action="cadastro.php" method="post">
-        
-            <div>
-                <h1>Increva-se!</h1>
-                <p>
+        <div class="campo">
+           
+                <div class="conteudo">
                     <label for="inome">Nome</label>
                     <input type="text" name="nome" id="inome">
-                </p>
-                <p>
+                </div>
+               
+               
+                <div class="conteudo">
                     <label for="isobrenome">Sobrenome</label>
                     <input type="text" name="sobrenome" id="isobrenome">
-                </p>
-                <p>
+                </div>
+              
+               
+                <div class="conteudo">
                     <label for="iE-mail">E-mail</label>
                     <input type="email" name="E-mail" id="iE-mail">
-                </p>
-                <p>
+                </div>
+               
+               
+                <div class="conteudo">
                     <label for="isenha">Senha</label>
                     <input type="password" name="password" id="isenha">
-                </p>
+                </div>
                 
-                       <p><input type="checkbox" name="caixa" id="checkbox">Junte-se a Comunidade</p>
+                <div class="conteudo"><input id="enviar" type="submit" value="Enviar"></div>
                 
-                       <p><input id="enviar" type="submit" value="Enviar"></p>
                 
-                       <p>Já é um membro? <a href="">Faça login</a></p>
+                    <p>Já é um membro? <a href="">clique aqui</a> </p>
                 
-                       <p id="fim">Obrigado pelo envio!</p>
             </div>
     
     </form>
